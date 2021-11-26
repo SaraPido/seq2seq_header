@@ -1,0 +1,55 @@
+﻿I want to cluster data	clustering
+Find groups	clustering
+classify data	classification
+please find the frequent itemsets in the data	associationRules
+Which are the characteristics that mostly influence the %LABEL%?	associationRules ( %LABEL% )
+What is related to the %LABEL%?	correlation ( %LABEL% )
+If %F%, is she prone to have %LABEL%?	featureSelection ( %F% ,  %LABEL% ) correlation
+If %F%, is she prone to have %LABEL%?	featureSelection ( %F% ,  %LABEL% ) correlation
+do you find anomalies?	outliersDetection
+can you predict if there is a person that will have %LABEL%?	classification (  %LABEL% )
+i want you to predict %LABEL% according to the features %F% , %F%	featureSelection ( %F%, %F% ) classification ( %LABEL% )
+i want you to predict %LABEL% according to the features %F% , %F% , %F% , %F%	featureSelection ( %F% , %F% , %F% , %F% ) classification ( %LABEL% )
+can you remove the %F%  and only after it predict the %LABEL%	featureRemoval (%F%) classification
+Find groups	clustering
+are u able to find 10 groups?	clustering ( 10 )
+i want to find genes clusters	clustering
+classify data	classification
+these data have a label, can you retrieve them?	classification ( label)
+can you classify these data?	classification
+please perform classification	classification
+classify the data I uploaded	classification
+do not know what to do	ds
+please find something	ds
+can you find something?	ds
+visualize the performances for the number  of clusters for kmeans	kmeans plot
+Visualize data	plot
+Compute performances for classification of these data and visualize them	classification performance plot
+divide data into groups and find the best number of groups	range clustering plot
+predict the label of these data	classification
+understand the data	statistics
+see data analysis, then filter the data and then classify them	statistics featureSelection classification
+see the performances of the classification	classification performance plot
+Calculate and diagram the classification output of these results.	classification performance plot
+divide the data into groups and determine the optimal number of groups	range clustering plot
+predict the mark of these data	classification
+comprehend the information	statistics
+see data analysis, then filter the data, and finally identify them	statistics featureSelection classification
+look at the classification's results,	classification performance plot
+look for trends in the numbers	clustering plot
+look at the categories.	clustering plot
+Will you come across any groups?	clustering
+classify the data I got	classification
+use a classification algorithm, and show me the results	classification performance plot
+Figure out which are the factors responsible for %LABEL%	classification ( %LABEL% ) featureImportance
+Predict whether %LABEL%	classification ( %LABEL% )
+Is there a relation between %F% and %LABEL% ?	correlation ( %F% , %LABEL% )
+Can you define which are the features that can tell me if %LABEL% and define a way in order to understand in advance if %LABEL%	featureSelection classification ( %LABEL% ) featureImportance
+Which are the factors that characterize %LABEL% ?	correlation ( %LABEL% )
+How can I understand if I have to modify the features according to the %LABEL% ?	featureSelection classification ( %LABEL% ) featureImportance
+Find if there are groups of clients that can I exploit to sell more	clustering
+Are there anomalies in my data?	outliersDetection
+show me the strange data	outliersDetection plot
+show me if there are data that can be considered strange	outliersDetection plot
+i want to visualize if there are anomalies in the data	outliersDetection plot
+do you see outliers in my data?	outliersDetection plot

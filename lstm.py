@@ -35,6 +35,7 @@ class CustomLSTM(nn.Module):
         HS = self.hidden_size
         for t in range(seq_sz):
             x_t = x[:, t, :]
+            # è cosi? Controllare dimensioni
             test_t = test[:, t, :]
             # batch the computations into a single matrix multiplication
             gates = x_t @ self.W + h_t @ self.U + test_t @ self.Q + self.bias
